@@ -1,3 +1,12 @@
 # Flask_Pompy
 
-Aplikacja utworzona we Flasku, połączona z SQL. Pozwala na rejestracje oraz logowanie użytkownika, a następnie na dodawanie, usuwanie i edytowanie artykułów.
+Aplikacja utworzona we Flasku. Pozwala na dodawanie artykułów związanych z zainstalowanymi pompami ciepła dzięki czemu możliwa jest analiza warunków w jakich pompy pracują najkorzystniej.
+
+# Możliwości
+
+Rejestracja, logowanie a następnie dodawanie, edytowanie i usuwanie artykułów. Do rejestracji wymagany jest klucz w celu zabezpieczenia artykułów przed osobami z zewnątrz
+
+# Wymagania
+
+Python korzystający z bibliotek: flask, flask_mysqldb, wtforms, passlib.hash, functools.
+Pakiet serwera np.: XAMPP
